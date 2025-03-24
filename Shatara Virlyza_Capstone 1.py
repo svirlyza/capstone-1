@@ -266,6 +266,7 @@ def main():
                     status_peminjam(dictPeminjaman)
                 elif pilihan == 4:
                     hapus_peminjam(dictPeminjaman)
+                elif pilihan == 5:
                     break
                 else:
                     print("Pilihan tidak valid!")
